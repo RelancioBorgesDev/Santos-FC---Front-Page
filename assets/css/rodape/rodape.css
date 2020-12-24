@@ -1,0 +1,13 @@
+.rodape{
+    padding: 50px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+.rodape__conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rodape__conteudo-titulo{
+    font-size: 1.5rem;
+}
