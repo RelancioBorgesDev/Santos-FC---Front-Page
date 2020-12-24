@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santos FC</title>
@@ -14,7 +16,7 @@
     <link rel="stylesheet" href="/assets/css/cabecalho/nav/cabecalho-link.css">
     <link rel="stylesheet" href="/assets/css/principal/principal-wallpaper.css">
     <link rel="stylesheet" href="/assets/css/principal/principal.css">
-    <link rel="stylesheet" href="/assets/css/principal/principal-titulos.css">
+    <link rel="stylesheet" href="/assets/css/principal/principal-conteudo.css">
     
 </head>
     <body>
@@ -23,16 +25,18 @@
             <nav class="cabecalho__nav">
                 <ul class="cabecalho__lista">
                     <li class="cabecalho__item"><a class="cabecalho__link ativo" href="#">Inicio</a></li>
-                    <li class="cabecalho__item"><a class="cabecalho__link" href="#">História</a></li>
                     <li class="cabecalho__item"><a class="cabecalho__link" href="#">Sobre</a></li>
+                    <li class="cabecalho__item"><a class="cabecalho__link" href="#">Contato</a></li>
                 </ul>
             </nav>
         </header>
         <section class="principal">
             <img class="principal__wallpaper" src="/assets/css/img/vilawallpaper.jpg" alt="">
-            <h1 class="principal__titulo">Santos FC, o maior time do mundo</h1>
-            <h2 class="principal__subtitulo">Conheça a historia do clube</h2>
-            <button class="principal__botao"><a class="principal__botao-link" href="#">Historia</a></button>
+            <div class="principal__conteudo">
+                <h1 class="principal__conteudo-titulo titulo">Santos FC, o maior time do mundo</h1>
+                <h2 class="principal__conteudo-subtitulo titulo">Conheça a historia do clube</h2>
+                <a class="principal__conteudo-botao-link" href="#"><button class="principal__conteudo-botao">Clique Aqui</button></a>
+            </div>
         </section>
     </body>
 </html>

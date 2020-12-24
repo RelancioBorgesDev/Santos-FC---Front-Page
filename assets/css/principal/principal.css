@@ -9,6 +9,7 @@
 .principal::after{
     content: '';
     position: absolute;
+    align-items: center;
     top: 0;
     left: 0;
     width: 100vw;
