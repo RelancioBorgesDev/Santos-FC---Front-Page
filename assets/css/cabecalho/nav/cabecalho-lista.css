@@ -1,0 +1,5 @@
+.cabecalho__lista{
+    display: flex;
+    flex-direction: row;
+    margin-right: 220px;
+}

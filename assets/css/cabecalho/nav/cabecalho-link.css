@@ -1,0 +1,13 @@
+.cabecalho__link{
+    text-decoration: none;
+    list-style: none;
+    color: #222;
+}
+.cabecalho__link:hover{
+    color: rgb(2, 2, 2);
+    border-bottom: 1px solid black;
+}
+.cabecalho__link.ativo{
+    color: black;
+    font-weight: 600;
+}
