@@ -1,8 +1,8 @@
 .principal__conteudo{
     position: absolute;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     
     padding: 10px;
     text-align: center;

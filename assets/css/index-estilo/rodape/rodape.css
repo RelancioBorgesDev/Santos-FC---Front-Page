@@ -1,11 +1,11 @@
 .rodape{
-    padding: 50px;
-    overflow: hidden;
     background-color: #f9f9f9;
+    overflow: hidden;
+    padding: 30px;
 }
 .rodape__conteudo{
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
 }
 .rodape__conteudo-titulo{
